@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/hny7uit.css">
+  <title>Grow</title>
+</head>
+
+<body>
+  <header id="navigation">
+    <img src="images/logo.png" alt="logo of the website">
+    <ul>
+      <li><a href="#scene1">Home</a></li>
+      <li><a href="#scene2">How</a></li>
+      <li><a href="#scene3">Results</a></li>
+      <li><a href="#scene4">Process</a></li>
+      <li><a href="#scene5">Experience</a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+    <section id="scene1">
+      <article class="rellax5">
+        <h1 >Life is like a piano. </h1>
+        <h2>What you get out of it <br>depends on how you play</h2>
+        <h3>not how you learned it</h3>
+      </article>
+      <a href="#scene2" class="button">Discover</a>
+    </section>
+
+
+
+    <section id="scene2" >
+      <section class="left">
+        <figure>
+          <img src=" images/note1.png" class="rellax5">
+          <img src=" images/note2.png" class="rellax1">
+          <img src=" images/note3.png" class="rellax5">
+          <img src=" images/note1.png" class="rellax3">
+          <img src=" images/note4.png" class="rellax1">
+          <img src=" images/note3.png" class="rellax2">
+          <img src=" images/note5.png" class="rellax2">
+          <img src=" images/note6.png" class="rellax1">
+          <img src=" images/note6.png" class="rellax5">
+          <img src=" images/note6.png" class="rellax4">
+          <img src=" images/note6.png" class="rellax3">
+          <img src=" images/note7.png" class="rellax2">
+          <img src=" images/note6.png" class="rellax1">
+
+
+        </figure>
+        <article>
+          <h1>Self learning tutorials</h1>
+          <p>This technique makes the brain work on the memory. You might think that it is just based
+            on remembering notes. But it's much more complex than that, you will see that after working
+            on a piece you will hardly forget it thanks to your muscle memory.</p>
+          <h4>As a piano beginner I followed this technique
+            which is surprisingly very effective</h4>
+        </article>
+      </section>
+
+      <section class="right">
+        <h1>Process</h1>
+        <article>
+          <div class="stepnumber">1</div>
+          <hr>
+          <div class="info">
+            <h4>Music</h4>
+            <p>Chose a music that you like</p>
+            <a href="#">Details</a>
+          </div>
+        </article>
+        <hr class="line">
+        <article>
+          <div class="stepnumber">2</div>
+          <hr>
+          <div class="info">
+            <h4>Get started</h4>
+            <p>Warm up a bit</p>
+            <a href="#">Details</a>
+          </div>
+        </article>
+        <hr class="line">
+        <article>
+          <div class="stepnumber">3</div>
+          <hr>
+          <div class="info">
+            <h4>Devide</h4>
+            <p>Practice daily/weekly</p>
+            <a href="#">Details</a>
+          </div>
+        </article>
+        <hr class="line">
+        <article>
+          <div class="stepnumber">4</div>
+          <hr>
+          <div class="info">
+            <h4>Perfectionate</h4>
+            <p>Repeat and play again</p>
+            <a href="#">Details</a>
+          </div>
+        </article>
+      </section>
+    </section>
+
+
+
+    <section id="scene3">
+      <article>
+        <h2>Without any lessons</h2>
+        <h1>Sound like a proffetional</h1>
+      </article>
+    </section>
+
+
+
+    <section id="scene4">
+
+      <div id="row">
+      <section id="block1" onclick="block1()">
+
+        <div class="stepnumber">1</div>
+        <h4>Music</h4>
+        <hr>
+        <p>Choose a music on youtube no matter which one, as long as it is a music that you love listened to. If it's the first song you choose, don't start too hard</p>
+        <a style="color:#252422" href="https://www.youtube.com/watch?v=dPxObCZPTUw">View</a>
+      </section>
+
+      <section id="block2">
+        <div class="stepnumber">2</div>
+        <h4>Get started</h4>
+        <hr>
+        <p>To save time, do a little warm up to warm up your fingers. This will help you to make fewer mistakes and learn to play the piano faster.</p>
+        <a href="https://www.youtube.com/watch?v=vH-l5SQ2Dhc">View</a>
+      </section>
+      
+    </div>
+
+    <div id="row">
+      <section id="block3">
+        <div class="stepnumber">3</div>
+        <h4>Devide</h4>
+        <hr>
+        <p>You will see that every music has different rhythms, use these rhythms to divide the learning process with a structure.</p>
+        <a href="#">View</a>
+      </section>
+
+      <section id="block4">
+        <div class="stepnumber">4</div>
+        <h4>Perfectionate</h4>
+        <hr>
+        <p>It's one thing to play the piano but it's another to play it well. That's why the more you play your piano the better it will sound.</p>
+        <a href="#">View</a>
+      </section>
+    </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    var rellax1 = new Rellax(".rellax1", {
+      speed: -0.5,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+
+    var rellax2 = new Rellax(".rellax2", {
+      speed: -1,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+
+    var rellax3 = new Rellax(".rellax3", {
+      speed: -1.5,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+
+    var rellax4 = new Rellax(".rellax4", {
+      speed: -2,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+
+    var rellax5 = new Rellax(".rellax5", {
+      speed: -3,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+
+
+
+    var ALERT_TITLE = "Oops!";
+    var ALERT_BUTTON_TEXT = "Ok";
+
+    if (document.getElementById) {
+      window.alert = function (txt) {
+        createCustomAlert(txt);
+      }
+    }
+
+    function createCustomAlert(txt) {
+      d = document;
+
+      if (d.getElementById("modalContainer")) return;
+
+      mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+      mObj.id = "modalContainer";
+      mObj.style.height = d.documentElement.scrollHeight + "px";
+
+      alertObj = mObj.appendChild(d.createElement("div"));
+      alertObj.id = "alertBox";
+      if (d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+      alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth) / 2 + "px";
+      alertObj.style.visiblity = "visible";
+
+      h1 = alertObj.appendChild(d.createElement("h1"));
+      h1.appendChild(d.createTextNode(ALERT_TITLE));
+
+      msg = alertObj.appendChild(d.createElement("p"));
+      //msg.appendChild(d.createTextNode(txt));
+      msg.innerHTML = txt;
+
+      btn = alertObj.appendChild(d.createElement("a"));
+      btn.id = "closeBtn";
+      btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+      btn.href = "#";
+      btn.focus();
+      btn.onclick = function () {
+        removeCustomAlert();
+        return false;
+      }
+
+      alertObj.style.display = "block";
+    }
+
+    function removeCustomAlert() {
+      document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+    }
+  </script>
+</body>
+
+</html>
